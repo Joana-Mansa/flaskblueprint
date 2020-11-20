@@ -14,3 +14,4 @@ def list():
 def view(product_id):
     product= Product.query.get(product_id)
     return render_template('products/view.html', product=product)
+ 
